@@ -372,7 +372,7 @@ a {
 }
 
 .effect__dome {
-  width: 1920px;
+  width: 100%;
   min-width: 1920px;
   height: 520px;
 
@@ -382,7 +382,6 @@ a {
 
   border-radius: 50% 50% 0 0 / 100% 100% 0 0;
   background: linear-gradient(180deg, #cddffb 0%, #eaf2ff 45%, #ffffff 100%);
-
   display: flex;
   align-items: flex-start;
   justify-content: center;

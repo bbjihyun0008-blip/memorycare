@@ -371,14 +371,15 @@ a {
   overflow: hidden;
 }
 
-@media (max-width: 1280px) {
-  .effect__dome {
-    width: 1280px;
-    min-width: 1280px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+.effect__dome {
+  width: 100%;
+  height: 520px;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  background: linear-gradient(180deg, #cddffb 0%, #eaf2ff 45%, #ffffff 100%);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 5rem;
 }
 
 .effect__content {
@@ -588,5 +589,17 @@ a {
 
   .mascot-stage {
     max-width: 100%;
+  }
+}
+
+@media (max-width: 1919px) {
+  .effect__dome {
+    width: 1920px;
+    max-width: none;
+    flex-shrink: 0;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

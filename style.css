@@ -372,8 +372,7 @@ a {
 }
 
 .effect__dome {
-  width: 100%;
-  min-width: 1920px;
+  width: 1920px;
   height: 520px;
 
   margin-left: 50%;

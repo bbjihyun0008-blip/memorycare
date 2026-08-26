@@ -372,14 +372,17 @@ a {
 }
 
 .effect__dome {
-  width: 1920px;
+  width: 1648px;
+  min-width: 1648px;
   height: 520px;
 
   margin-left: 50%;
   transform: translateX(-50%);
+  flex-shrink: 0;
 
   border-radius: 50% 50% 0 0 / 100% 100% 0 0;
   background: linear-gradient(180deg, #cddffb 0%, #eaf2ff 45%, #ffffff 100%);
+
   display: flex;
   align-items: flex-start;
   justify-content: center;

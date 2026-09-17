@@ -254,7 +254,7 @@ a {
 .features__title {
   font-size: clamp(1.5rem, 3vw, 2.1rem);
   font-weight: 800;
-  margin-top: -0.6rem;
+  margin-top: 0rem;
 }
 
 .features__content {

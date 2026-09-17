@@ -240,6 +240,7 @@ a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   text-align: center;
   width: 100%;
   gap: 0.9rem;
@@ -254,7 +255,7 @@ a {
 .features__title {
   font-size: clamp(1.5rem, 3vw, 2.1rem);
   font-weight: 800;
-  margin-top: 0rem;
+  margin-top: 0;
 }
 
 .features__content {

@@ -248,11 +248,11 @@ a {
 .features__eyebrow {
   color: var(--blue);
   font-weight: 700;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
 }
 
 .features__title {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
   font-weight: 800;
   margin-top: -0.6rem;
 }
@@ -420,7 +420,7 @@ a {
 }
 
 .effect__content h2 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
   font-weight: 800;
   margin-bottom: 1.6rem;
 }

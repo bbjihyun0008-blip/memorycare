@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>늘봄 | 프로젝트 소개</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Pretendard", "Noto Sans KR", sans-serif;
+      background: #f4f6fa;
+    }
+
+    .pdf-header {
+      height: 72px;
+      background: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      border-bottom: 1px solid #e7e8ec;
+    }
+
+    .pdf-header h1 {
+      font-size: 20px;
+      margin: 0;
+    }
+
+    .back-btn {
+      background: #1e6feb;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .pdf-frame {
+      width: 100%;
+      height: calc(100dvh - 72px);
+      border: none;
+      display: block;
+    }
+
+    @media (max-width: 560px) {
+      .pdf-header {
+        padding: 0 16px;
+      }
+
+      .pdf-header h1 {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="pdf-header">
+    <h1>늘봄 프로젝트 소개</h1>
+    <a href="index.html#intro" class="back-btn">← 돌아가기</a>
+  </header>
+
+  <iframe
+    src="pdf/memorycare.pdf"
+    class="pdf-frame"
+    title="늘봄 프로젝트 소개 PDF">
+  </iframe>
+
+</body>
+</html>
